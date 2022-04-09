@@ -1,0 +1,12 @@
+.gridCell {
+    border: solid 1px pink;
+    box-sizing: border-box;
+}
+
+.cellContainer {
+    display: flex;
+    border: solid 1px pink;
+    float: right;
+    margin: 150px 30px;
+    flex-flow: row wrap;
+}
