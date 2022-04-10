@@ -32,4 +32,9 @@ function createGrid(cellAmount){
 
 createGrid(cellAmount);
 
-window.addEventListener()
+const pixels = document.querySelectorAll('.gridCell');
+pixels.forEach((gridElement) => {
+    gridElement.addEventListener('mouseover', function (e) {
+        e.target.style.background = 'black';
+    })
+})
