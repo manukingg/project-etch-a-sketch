@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
 .gridCell {
     border: solid 1px pink;
     box-sizing: border-box;
@@ -9,4 +14,21 @@
     float: right;
     margin: 150px 30px;
     flex-flow: row wrap;
+    min-width: 400;
+}
+
+.cleanButton {
+    margin-left: 50px;
+    border: solid 2px black;
+    background-color: lightblue;
+    font-size: 12px;
+    border-radius: 3px;
+    width: max-content;
+    height: min-content;
+}
+
+.gridParameters {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
